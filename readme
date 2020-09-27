@@ -1,0 +1,21 @@
+This project explores UCI's heart disease data set https://archive.ics.uci.edu/ml/datasets/heart+disease
+
+Create a conda environment capable of running this code with conda env create -f heart_disease_environment.yml 
+
+Directory structure:
+/data/ - original data from the UCI repository
+/data/cleaned - transformed data created using file: 1. Data Exploration
+
+/src/ - the source code for the project
+/src/1. Data Exploration.ipynb - Loads, explores and processes the raw data. Saves output to /data/cleaned/
+/src/2. Modelling.ipynb - Models heart disease using the cleaned data using a regularised GLM
+/src/3. Modelling RF.ipynb - Models heart disease using the cleaned data using a randomforest
+/src/html - html renders of all ipynbs if you don't want to open them all
+
+./heart_disease_environment.yml - yml file for creating the environment for running this code
+./readme - this file
+
+
+
+
+
